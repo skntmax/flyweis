@@ -1,7 +1,7 @@
 require('dotenv').config()
 const mongoose = require('mongoose');
 // const dbName=process.env.DB_NAME ; 
-mongoose.connect(`mongodb://localhost:27017/demo2`, {
+mongoose.connect(`mongodb+srv://skntmax:sknt987@cluster0.q9uaj.mongodb.net/demo2?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
